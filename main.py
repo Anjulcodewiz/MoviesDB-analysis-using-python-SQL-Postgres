@@ -27,7 +27,6 @@ for movie in top_5_movies:
     print(movie)
 print() # adding for a blank line
 
-#Path of folderC:\Users\ANJUL VERMA\OneDrive\Desktop\Python work\main.py
 # Number of Unique Raters
 cursor.execute("SELECT COUNT(DISTINCT rater_id) FROM ratings")
 num_unique_raters = cursor.fetchone()
