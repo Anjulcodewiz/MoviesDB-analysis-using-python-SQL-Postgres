@@ -1,5 +1,29 @@
-# MoviesDB-analysis-using-python-SQL-Postgres
+# Insights and Analysis assumptions:
 
+In the CSV file, certain movies are listed with a duration of 0 minutes, no director name, no poster, no country, and no genre. It is assumed that these omissions are due to errors in data capture, and the data is processed with this assumption in mind.
+
+a.	Assumptions in Top 5 Movie Titles:
+The movies are sorted by year (newest first), duration (longest first), average rating (highest first with minimum avg 5 star), and number of ratings (highest first)
+
+b.	No assumptions : Number of Unique Raters.
+
+c.	Assumptions: Top 5 Rater IDs: Sort and print the top 5 rater IDs based on: 
+--The rater has rated at least 5 movies.
+--The raters are sorted by the number of movies they’ve rated (most first) and their average      rating given (highest first).
+
+d.  Assumptions: Top Rated Movie: 
+--Top-rated movie by ‘Michael Bay’, in the ‘Comedy’ genre, in the year 2013, in India.
+--The average rating of the movie is at least 5.
+e. No assumptions: The genre of the movies that the rater with ID 1040 has rated the most.
+
+f.  Assumptions: Highest Average Rating for a Movie Genre by Rater ID 1040:
+-- The genre of the movies that the rater with ID 1040 has rated the most.
+--The average rating given by the rater to the movies genre is highest among all genres rated     by the rater.
+--The minimum rating given by the rater to the movies of this genre is at least 5.
+
+g. No assumptions: Year with Second-Highest Number of Action Movies
+h. No assumptions: Count of Movies with High Ratings 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task Overview:
 1. Data Import:
 - Set up a PostgreSQL database. (You can setup a free PostgreSQL instance from Render)
@@ -42,3 +66,4 @@ efficiently.
 us.
 - Additionally, include any assumptions made during the process and comments to explain
 the logic of your code
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
