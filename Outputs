@@ -1,0 +1,21 @@
+a. Top 5 movies considering: Title, Year, Duration, Average Rating, Number of Ratings
+('Spectre', 2015, 148, 7.5, 14)
+('Straight Outta Compton', 2015, 147, 8.0, 5)
+('The Martian', 2015, 144, 9.0, 5)
+('Avengers: Age of Ultron', 2015, 141, 8.0, 29)
+('The Hunger Games: Mockingjay - Part 2', 2015, 137, 7.666666666666667, 6)
+
+b. Number of unique raters: 1048
+
+c. Top 5 raters by number of movies rated and highest average rating given: Rater Id, Num of movies rated, Avg rating given [(735, 314, 6.907643312101911), (769, 209, 7.220095693779904), (512, 188, 7.48404255319149), (800, 186, 7.56989247311828), (82, 159, 6.459119496855346)]   
+
+d.Top rated movie by 'Michael Bay', 'Comedy', in the year 2013, in India: None
+
+
+e. Favorite movie genre of rater ID 1040: ('Action, Adventure, Sci-Fi', 11)
+
+f. Favorite movie genre of rater ID 1040 considering highest average rating and minimum rating as 5: ('Action, Comedy, Romance', 1, 10.0, 10.0)
+
+g. Year with second-highest number of action movies from the USA with average rating of 6.5 or higher and runtime of less than 120 minutes: None
+
+h. Count of movies with high ratings: 338
