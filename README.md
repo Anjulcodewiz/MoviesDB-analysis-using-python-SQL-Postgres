@@ -20,9 +20,9 @@ f.  Assumptions: Highest Average Rating for a Movie Genre by Rater ID 1040:
 -- The genre of the movies that the rater with ID 1040 has rated the most.
 --The average rating given by the rater to the movies genre is highest among all genres rated     by the rater.
 --The minimum rating given by the rater to the movies of this genre is at least 5.
-
 g. No assumptions: Year with Second-Highest Number of Action Movies
-h. No assumptions: Count of Movies with High Ratings 
+h. No assumptions: Count of Movies with High Ratings
+ 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task Overview:
 1. Data Import:
