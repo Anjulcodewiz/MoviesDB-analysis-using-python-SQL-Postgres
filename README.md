@@ -8,18 +8,19 @@ The movies are sorted by year (newest first), duration (longest first), average 
 b.	No assumptions : Number of Unique Raters.
 
 c.	Assumptions: Top 5 Rater IDs: Sort and print the top 5 rater IDs based on: 
---The rater has rated at least 5 movies.
---The raters are sorted by the number of movies they’ve rated (most first) and their average      rating given (highest first).
+-The rater has rated at least 5 movies.
+-The raters are sorted by the number of movies they’ve rated (most first) and their average      rating given (highest first).
 
 d.  Assumptions: Top Rated Movie: 
---Top-rated movie by ‘Michael Bay’, in the ‘Comedy’ genre, in the year 2013, in India.
---The average rating of the movie is at least 5.
+-Top-rated movie by ‘Michael Bay’, in the ‘Comedy’ genre, in the year 2013, in India.
+-The average rating of the movie is at least 5.
+
 e. No assumptions: The genre of the movies that the rater with ID 1040 has rated the most.
 
 f.  Assumptions: Highest Average Rating for a Movie Genre by Rater ID 1040:
---The genre of the movies that the rater with ID 1040 has rated the most.
---The average rating given by the rater to the movies genre is highest among all genres rated     by the rater.
---The minimum rating given by the rater to the movies of this genre is at least 5.
+-The genre of the movies that the rater with ID 1040 has rated the most.
+-The average rating given by the rater to the movies genre is highest among all genres rated     by the rater.
+-The minimum rating given by the rater to the movies of this genre is at least 5.
 
 g. No assumptions: Year with Second-Highest Number of Action Movies
 
