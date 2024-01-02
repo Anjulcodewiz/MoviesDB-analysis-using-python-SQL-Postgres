@@ -1,6 +1,6 @@
 **Downloaded csv files from provided link**
 
-**Step 1: Bringing CSV file to necessary format and importing data to Database:**
+**Bringing CSV file to necessary format and importing data to Database:**
 
 In downloaded CSV files I did necessary modification in timestamp
 
@@ -15,14 +15,19 @@ Creating database:
 
 following steps : 
 Right Click database>create database> selecting necessary details:
+![image](https://github.com/Anjulcodewiz/MoviesDB-analysis-using-python-SQL-Postgres/assets/89291748/b90d8458-0213-4478-b3a3-9c23d79dcc54)
 
 OR
 using code:  
+![image](https://github.com/Anjulcodewiz/MoviesDB-analysis-using-python-SQL-Postgres/assets/89291748/06304efa-a0a1-4c97-afec-9db4f75f2d50)
+
 Then Creating Tables:
 **Method 1 creating tables:** 
 create table movies and create the respective columns
+![image](https://github.com/Anjulcodewiz/MoviesDB-analysis-using-python-SQL-Postgres/assets/89291748/b046e1e3-4fce-4ec2-9cc0-2c142dca7d8b)
 
 create table ratings and create the respective columns
+![image](https://github.com/Anjulcodewiz/MoviesDB-analysis-using-python-SQL-Postgres/assets/89291748/b3c224c6-ca0f-4ada-b9c8-17420b70d4a4)
 
 **Method 2 creating tables:**
 in query Editor can create tables using this code:
@@ -74,6 +79,8 @@ then in cmd after establishing connection with server(explained in later steps),
 and before that we use `SET client_encoding TO ‘UTF8’`:  Used in PostgreSQL to set the client-side encoding (character set) to UTF-8.
 
 further we use copy command to copy files to the tables in their respective columns
+![image](https://github.com/Anjulcodewiz/MoviesDB-analysis-using-python-SQL-Postgres/assets/89291748/76463931-5bfb-4a63-8673-b8554a6a83f4)
+
 
 Using code : 
 
@@ -83,4 +90,4 @@ Using code :
 \copy ratings(rater_id, movie_id, rating, time) FROM 'C:\\Users\\ANJUL VERMA\\OneDrive\\Desktop\\Movies file downloaded\\ratings.csv' DELIMITER ',' CSV HEADER;
 ```
 
-As in PostgreSQL, the backslash (\\) is a special character, so you need to escape it by using double backslashes (\\\\).
+As in PostgreSQL, the backslash (\\) is a special character, so need to escape it by using double backslashes (\\).
