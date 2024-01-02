@@ -92,7 +92,7 @@ Using code :
 \copy ratings(rater_id, movie_id, rating, time) FROM 'C:\\Users\\ANJUL VERMA\\OneDrive\\Desktop\\Movies file downloaded\\ratings.csv' DELIMITER ',' CSV HEADER;
 ```
 
-As in PostgreSQL, the backslash (\\) is a special character, so need to escape it by using double backslashes (\\).
+As in PostgreSQL, the backslash (\\) is a special character, so need to escape it by using double backslashes (\\\\).
 
 **Then we need to join tables**
 ![image](https://github.com/Anjulcodewiz/MoviesDB-analysis-using-python-SQL-Postgres/assets/89291748/848b00fe-e520-4fd1-ba73-96b9a83abca4)
