@@ -1,0 +1,7 @@
+Top 5 movies by duration: [('Gangs of Wasseypur',), ('Gone with the Wind',), ('Once Upon a Time in America',), ('Lawrence of Arabia',), ('Jodhaa Akbar',)]
+
+Top 5 movies by year of release: [('Bridge of Spies',), ('Irrational Man',), ('Ted 2',), ('McFarland, USA',), ('Cobain: Montage of Heck',)]
+
+Top 5 movies by average rating: [('The Godfather: Part II', 9.8), ('L.A. Confidential', 9.8), ('The Shawshank Redemption', 9.65), ('The Lord of the Rings: The Return of the King', 9.6), ('Star Wars: Episode V - The Empire Strikes Back', 9.571428571428571)]
+
+Top 5 movies by number of ratings given: [('The Wolf of Wall Street', 69), ('Gravity', 64), ('Man of Steel', 60), ('Now You See Me', 59), ('Interstellar', 58)]
