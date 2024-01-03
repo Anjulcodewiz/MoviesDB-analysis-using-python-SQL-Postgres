@@ -1,7 +1,30 @@
-Top 5 movies by duration: [('Gangs of Wasseypur',), ('Gone with the Wind',), ('Once Upon a Time in America',), ('Lawrence of Arabia',), ('Jodhaa Akbar',)]
+PS C:\Users\ANJUL VERMA\OneDrive\Desktop\Python work\Movies-Analysis> & C:/Python312/python.exe "c:/Users/ANJUL VERMA/OneDrive/Desktop/Python work/Movies-Analysis/MoviesDB-analysis-using-python-SQL-Postgres/Main_considering_subpoints.py"
+a.1: Top 5 movies by duration: [('Gangs of Wasseypur',), ('Gone with the Wind',), ('Once Upon a Time in America',), ('Lawrence of Arabia',), ('Jodhaa Akbar',)]
 
-Top 5 movies by year of release: [('Bridge of Spies',), ('Irrational Man',), ('Ted 2',), ('McFarland, USA',), ('Cobain: Montage of Heck',)]
+a.2: Top 5 movies by year of release: [('Bridge of Spies',), ('Irrational Man',), ('Ted 2',), ('McFarland, USA',), ('Cobain: Montage of Heck',)]
 
-Top 5 movies by average rating: [('The Godfather: Part II', 9.8), ('L.A. Confidential', 9.8), ('The Shawshank Redemption', 9.65), ('The Lord of the Rings: The Return of the King', 9.6), ('Star Wars: Episode V - The Empire Strikes Back', 9.571428571428571)]
+a.3: Top 5 movies by average rating: [('The Godfather: Part II', 9.8), ('L.A. Confidential', 9.8), ('The Shawshank Redemption', 9.65), ('The Lord of the Rings: The Return of the King', 9.6), ('Star Wars: Episode V - The Empire Strikes Back', 9.571428571428571)]
 
-Top 5 movies by number of ratings given: [('The Wolf of Wall Street', 69), ('Gravity', 64), ('Man of Steel', 60), ('Now You See Me', 59), ('Interstellar', 58)]
+a.4: Top 5 movies by number of ratings given: [('The Wolf of Wall Street', 69), ('Gravity', 64), ('Man of Steel', 60), ('Now You See Me', 59), ('Interstellar', 58)]
+
+b: Number of unique raters: 1048
+
+c.1: Top 5 raters by number of movies rated: [(735, 314), (769, 209), (512, 188), (800, 186), (82, 159)]
+
+c.2: Top 5 raters by highest average rating given: [(206, 10.0), (256, 10.0), (231, 10.0), (662, 10.0), (146, 10.0)]
+
+d.1: Top rated movie by Michael Bay: ('Transformers', 8.6)
+
+d.2: Top rated comedy movie: ("Ferris Bueller's Day Off", 9.2)
+
+d.3: Top rated movie in 2013: ('Short Term 12', 8.777777777777779)
+
+d.4: Top rated movie in India: ('PK', 9.3)
+
+e: Favorite movie genre of rater with ID 1040: Action, Adventure, Sci-Fi
+
+f: Highest average rating for a movie genre by rater with ID 1040: ('Action, Adventure, Sci-Fi', 8.454545454545455)
+
+g. Year with second-highest number of action movies from the USA with average rating of 6.5 or higher and runtime of less than 120 minutes: None
+
+h. Count of movies with high ratings: 338
